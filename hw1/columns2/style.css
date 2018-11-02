@@ -1,0 +1,26 @@
+<style type="text/css">
+
+html, body { 
+  height: 100%;
+  margin: 0;
+}
+
+    .container-flex { 
+    display: flex;
+    height: 100%;
+        }
+
+    .flex-element0 { 
+      background: aqua; 
+      width: 100px; 
+      height: 100%;}
+    .flex-element1 {
+      background: blue; 
+      width: 50%; 
+      height: 100%;}
+    .flex-element2 { 
+      background: navy; 
+      width: 50%; 
+      height: 100%;}
+
+    </style>

@@ -1,0 +1,30 @@
+<style type="text/css">
+
+html, body { height: 100%; margin: 0;}
+
+   .layout { 
+   	height: 100%;}
+   
+   .rubber { 
+   	margin-right: 200px; 
+   	height: 100%;
+   	width: 100%-100px;}
+   
+   .col1 { 
+   	background: aqua; 
+   	width: 100px; 
+   	height: 100%; 
+   	float: left; }
+
+   .col2 { 
+   	background: blue;
+   	width: 50%; 
+   	height: 100%;
+   	float: right; }
+   .col3 { 
+   	background: navy; 
+   	width: 50%; 
+   	height: 100%;
+   	float: right; }
+   
+   </style>
