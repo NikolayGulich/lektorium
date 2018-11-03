@@ -1,4 +1,4 @@
-<style type="text/css">
+<style type="text/css"> /*теги хтмл в файле стилей не пишутся, потому и неработает*/
 
 html, body { height: 100%; margin: 0;}
 
@@ -8,7 +8,7 @@ html, body { height: 100%; margin: 0;}
    .rubber { 
    	margin-right: 200px; 
    	height: 100%;
-   	width: 100%-100px;}
+   	width: 100%-100px;} /*ошибка*/
    
    .col1 { 
    	background: aqua; 
