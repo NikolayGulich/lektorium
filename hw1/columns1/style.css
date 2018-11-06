@@ -1,22 +1,16 @@
-<style type="text/css"> /*теги хтмл в файле стилей не пишутся, потому и неработает*/
-
 html, body { height: 100%; margin: 0;}
-
-   .layout { 
+   .layout {
    	height: 100%;}
-   
-   .rubber { 
+    .rubber {
    	margin-right: 200px; 
    	height: 100%;
-   	width: 100%-100px;} /*ошибка*/
-   
-   .col1 { 
+   	width: 100%}
+    .col1 {
    	background: aqua; 
    	width: 100px; 
    	height: 100%; 
    	float: left; }
-
-   .col2 { 
+   .col2 {
    	background: blue;
    	width: 50%; 
    	height: 100%;
@@ -26,5 +20,3 @@ html, body { height: 100%; margin: 0;}
    	width: 50%; 
    	height: 100%;
    	float: right; }
-   
-   </style>

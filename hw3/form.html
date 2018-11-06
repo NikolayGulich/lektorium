@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>form</title>
+</head>
+<body>
+<form action="select1.php" method="POST">
+<fieldset>
+    <legend>Про себе</legend>
+    <p> Ім'я*(Обов'язкове поле):<input type="text" name="name" required placeholder="Введіть своє ім'я"></p>
+        Прізвище*(Обов'язкове поле):<input type="text" name="soname" required placeholder="Введіть своє прізвище"></p>
+    <p>Стать*(Обов'язкове поле):
+    <select size="1" name="female" required>
+        <option disabled selected>-Виберіть стать-</option>
+        <option value="Чоловік">Чоловік</option>
+        <option value="Жінка">Жінка</option>
+    </select>
+    </p>
+    <p>Вік (Лише цифри від 18 до 48)*(Обов'язкове поле):<input type="number" name="age" min="18" max="48"><Br></p>
+</fieldset>
+<fieldset>
+<legend>Фото</legend>
+<p>Загрузить фотографію:</p>
+<p><input type="file" name="photo" multiple accept="image/*,image/jpeg"></p>
+</fieldset>
+<fieldset>
+    <legend>День народження</legend>
+    <p>День народження:<input type="date" name="date"></p>
+</fieldset>
+<fieldset>
+    <legend>Інша інформація</legend>
+    <p>Ваш email (Лише email адреса):<br>
+        <input type="email" name="email" placeholder="Email"></p>
+    <p>Ваш телефон (Має складатись від 6-ти до 9-ти символів):<br>
+        <input type="tel" placeholder="Телефон" name="tel" pattern="[0-9]{6,9}"></p>
+    <p>Пароль (Пароль прихований):<br>
+        <input type="password" name="password" placeholder="Пароль"></p>
+    <p>Ваш веб-сайт (Лише URL адреса)<br>
+        <input type="url" name="web" placeholder="URL"></p>
+</fieldset>
+<fieldset>
+    <legend>Ваші улюблені заняття</legend>
+    <p><input type="radio" name="hobby" value="Вьорстка форм">Вьорстка форм</p>
+    <p><input type="radio" name="hobby" value="Комп'ютерні ігри">Комп'ютерні ігри</p>
+    <p><input type="radio" name="hobby" value="Вьорстка емейлів">Вьорстка емейлів</p>
+    <p><input type="radio" name="hobby" value="Фіксить баги на сайті під iOS">Фіксить баги на сайті під iOS</p>
+    <p><input type="radio" name="hobby" value="Фіксить флєкса під IE">Фіксить флєкса під IE</p>
+</fieldset>
+<fieldset>
+    <legend>Що вам не подобається в вьорсткі форм?</legend>
+    <p><input type="checkbox" name="not-like" value="Вьорстка форм">Вьорстка форм</p>
+    <p><input type="checkbox" name="not-like" value="Як зверстать Drag & Drop?">Як зверстать Drag & Drop?</p>
+    <p><input type="checkbox" name="not-like" value="Імейли верстать круче">Імейли верстать круче</p>
+    <p><input type="checkbox" name="not-like" value="Як застілить випадающий список">Як застілить випадающий список</p>
+    <p><input type="checkbox" name="not-like" value="Що таке форма?">Що таке форма?</p>
+</fieldset>
+<fieldset>
+    <legend>Інше</legend>
+    <p>Ваш комментар:<br>
+    <textarea cols="100" rows="10"></textarea></p>
+    <p>Выберіть декілька варіантів:<br>
+        <select size="5" multiple>
+            <option name="variant" value="Варіант 1">Варіант 1</option>
+            <option name="variant" value="Варіант 2">Варіант 2</option>
+            <option name="variant" value="Варіант 3">Варіант 3</option>
+            <option name="variant" value="Варіант 4">Варіант 4</option>
+            <option name="variant" value="Варіант 5">Варіант 5</option>
+            </select>
+    </p>
+</fieldset>
+<p><input type="reset" value="Стерти дані"> <input type="submit" value="Відправить форму"></p>
+</form>
+</body>
+</html>
