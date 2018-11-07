@@ -6,17 +6,17 @@ html, body { height: 100%; margin: 0;}
    	height: 100%;
    	width: 100%}
     .col1 {
-   	background: aqua; 
+   	background: #00ffff;
    	width: 100px; 
    	height: 100%; 
    	float: left; }
    .col2 {
-   	background: blue;
+   	background: #0000ff ;
    	width: 50%; 
    	height: 100%;
    	float: right; }
    .col3 { 
-   	background: navy; 
+   	background: #000080;
    	width: 50%; 
    	height: 100%;
    	float: right; }
