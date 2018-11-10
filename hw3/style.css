@@ -1,0 +1,15 @@
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    border-spacing: 3px 3px;
+}
+TD.first {
+    width: 25px; height: 25px;
+}
+TD.second {
+    text-align: left;
+}
+TD.third {
+    text-align: left;
+}
