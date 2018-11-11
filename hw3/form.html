@@ -1,5 +1,5 @@
-<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/html">
+<!DOCTYPE HTML><!--хтмл маленькими-->
+<html xmlns="http://www.w3.org/1999/html"> <!--это откуда? Найти правильный стартовый шаблон для хтмл5-->
 <head>
     <meta charset="utf-8">
     <title>form</title>
@@ -7,7 +7,9 @@
 <body>
 <form action="select1.php" method="POST">
 <fieldset>
-    <legend>Про себе</legend>
+    <legend>Про себе</legend><!--инпут перенести на след строчки по коду после лейбла
+    id должны быть названы фонетично а не просто 1 или 2-->
+    <!--звездочка не красная после слова Имя и т.д.-->
     <p><label for="1">Ім'я*(Обов'язкове поле):</label><input type="text" name="name" id="1" required placeholder="Введіть своє ім'я"></p>
     <p><label for="2">Прізвище*(Обов'язкове поле):</label><input type="text" name="soname" id="2" required placeholder="Введіть своє прізвище"></p>
     <p><label for="3">Стать*(Обов'язкове поле):</label>
@@ -28,7 +30,7 @@
     <p><label for="6">День народження:</label><input type="date" name="date" id="6"></p>
 </fieldset>
 <fieldset>
-    <legend>Інша інформація</legend>
+    <legend>Інша інформація</legend> <!--вместо р ненумерованный список, бр не использовать - придумать другой вариант стилями-->
     <p><label for="7">Ваш email (Лише email адреса):</label><br>
         <input type="email" name="email" id="7" placeholder="Email"></p>
     <p><label for="8">Ваш телефон (Має складатись від 6-ти до 9-ти символів):</label><br>

@@ -1,9 +1,11 @@
 html, body {
     height: 100%;
     margin: 0;}
+/*на боди ничего не вешать, никогда, разве что сброс марджин*/
 .container-flex {
     display: flex;
     height: 100%;}
+/*почему выше отсутп 4 пробела, ниже 6?*/
 .flex-element0 {
       background: #00ffff;
       width: 100px; 

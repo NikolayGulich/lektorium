@@ -4,6 +4,7 @@ td, th {
     padding: 5px;
     border-spacing: 3px 3px;
 }
+/*никаких больших букв названиях класов и id*/
 TD.first {
     width: 25px; height: 25px;
 }

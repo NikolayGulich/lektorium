@@ -1,4 +1,4 @@
-html, body { height: 100%; margin: 0;}
+html, body { height: 100%; margin: 0;} /*на боди высоту не вешать, и вообще ничего никогда не вешать. Ну может марджин и всё*/
 .layout {
 	height: 100%;}
 .col1 {
