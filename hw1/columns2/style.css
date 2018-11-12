@@ -1,20 +1,21 @@
-html, body {
-    height: 100%;
-    margin: 0;}
-/*на боди ничего не вешать, никогда, разве что сброс марджин*/
-.container-flex {
-    display: flex;
-    height: 100%;}
-/*почему выше отсутп 4 пробела, ниже 6?*/
-.flex-element0 {
-      background: #00ffff;
-      width: 100px; 
-      height: 100%;}
-.flex-element1 {
-      background: #0000ff;
-      width: 50%; 
-      height: 100%;}
-.flex-element2 {
-      background: #000080;
-      width: 50%; 
-      height: 100%;}
+body
+{	margin: 0;}
+.container-flex
+{
+	display: flex;
+	height: 100vh;}
+.flex-element0
+{
+	background: #00ffff;
+	width: 100px;
+	height: 100%;}
+.flex-element1
+{
+	background: #0000ff;
+	width: 50%;
+	height: 100%;}
+.flex-element2
+{
+	background: #000080;
+	width: 50%;
+	height: 100%;}
